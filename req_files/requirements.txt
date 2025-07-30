@@ -1,0 +1,21 @@
+# Django and core dependencies
+Django
+whitenoise[brotli]
+gunicorn
+
+# Django REST Framework and related packages
+django-ninja
+
+# Cross-Origin Resource Sharing
+django-cors-headers
+
+
+# TODO: Confirm If Needed
+# # Django Multi Select
+# django-autocomplete-light
+# # Env Management
+# python-dotenv
+# # Requests
+# httpx
+# # Debugging
+# django-debug-toolbar
