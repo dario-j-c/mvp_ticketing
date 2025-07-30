@@ -1,0 +1,61 @@
+# .gitignore
+
+# --- Python ---
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+# Standard virtual environment directories
+.venv/
+venv/
+env/
+
+# --- Django ---
+# SQLite database files
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Static files collected by collectstatic
+**/staticfiles/
+
+# NOTE: Migrations are currently ignored.
+# For collaborative projects, it's standard practice to commit migrations.
+# This can be revisited as the project evolves.
+**/migrations/
+
+# --- Environment Variables ---
+# Dotenv files
+.env
+*.env
+
+# --- Operating System ---
+# macOS
+.DS_Store
+
+# --- Logs & Caches ---
+# Log files
+**/logs/
+*.log
+
+# Cache directories
+.cache/
+**/.cache/
+
+# --- Editor/IDE ---
+# VSCode
+.vscode/
+
+# --- Project Specific ---
+# User-defined directories for local data, backups, etc.
+# The .gitkeep file allows tracking the empty directory.
+/data/
+!/data/.gitkeep
+
+/untracked/
+!/untracked/.gitkeep
+
+/backups/
+!/backups/.gitkeep
